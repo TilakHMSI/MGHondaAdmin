@@ -1,0 +1,12 @@
+/Source/ProgramHeaders.xml
+/Source/DataSourcesIndex.xml
+input/
+output/
+*.log
+*.lock
+*.opt
+*.sln
+*.suo
+*.xpaproj
+*.xrfMagicIDs/branchIDs*.*
+MagicIDs/branchIDs*.*

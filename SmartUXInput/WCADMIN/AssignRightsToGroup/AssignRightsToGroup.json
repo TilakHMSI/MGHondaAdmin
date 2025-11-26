@@ -1,0 +1,109 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"AssignRightsToGroup",
+		"component_path":	"WCADMIN/AssignRightsToGroup/",
+		"module_name":	"",
+		"component_uniquename":	"AssignRightsToGroup_AssignRightsToGroup"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	825,
+		"height":	408
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"GroupLbl",
+				"text":	"Group",
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	13,
+				"y":	10,
+				"width":	43,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vGroup",
+				"mgformat":	"mgFormat",
+				"format":	"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+				"attribute":	"A",
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	60,
+				"y":	9,
+				"width":	102,
+				"height":	24
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"btnGroup",
+				"format":	"Group",
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	166,
+				"y":	8,
+				"width":	39,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"btnRights",
+				"visible":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"format":	"Assign Rights",
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	726,
+				"y":	8,
+				"width":	91,
+				"height":	28
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"RightsSub1",
+				"common_line_id":	"line40"
+			},
+			"coordinates":	{
+				"x":	8,
+				"y":	40,
+				"width":	810,
+				"height":	360
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		}
+	]
+}

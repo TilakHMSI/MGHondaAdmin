@@ -1,0 +1,95 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"RightsMaster",
+		"window_type":	1,
+		"component_path":	"WCADMIN/RightsMaster/",
+		"module_name":	"",
+		"component_uniquename":	"RightsMaster_RightsMaster"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	616,
+		"height":	420
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"SearchLbl",
+				"text":	"Search:",
+				"common_line_id":	"line28"
+			},
+			"coordinates":	{
+				"x":	10,
+				"y":	28,
+				"width":	54,
+				"height":	18
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vSerachEdit",
+				"mgformat":	"mgFormat",
+				"format":	"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+				"attribute":	"A",
+				"common_line_id":	"line28"
+			},
+			"coordinates":	{
+				"x":	69,
+				"y":	28,
+				"width":	432,
+				"height":	27
+			},
+			"hint":	{
+				"text":	{
+					"value":	"Search By Rights Key, Rights Name",
+					"has_exp":	false
+				},
+				"hint_color":	null
+			},
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"SearchBtn",
+				"format":	"Search",
+				"common_line_id":	"line28"
+			},
+			"coordinates":	{
+				"x":	509,
+				"y":	28,
+				"width":	84,
+				"height":	27
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Sub1",
+				"common_line_id":	"line66"
+			},
+			"coordinates":	{
+				"x":	9,
+				"y":	66,
+				"width":	602,
+				"height":	347
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		}
+	]
+}

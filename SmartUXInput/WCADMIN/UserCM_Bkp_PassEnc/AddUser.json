@@ -1,0 +1,248 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"AddUser",
+		"window_type":	12,
+		"custom_properties":	[
+			"FormName"
+		],
+		"component_path":	"WCADMIN/UserCM_Bkp_PassEnc/",
+		"module_name":	"",
+		"component_uniquename":	"UserCM_Bkp_PassEnc_AddUser"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	471,
+		"height":	283
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"UserIdLbl",
+				"text":	"User ID:",
+				"common_line_id":	"line11"
+			},
+			"coordinates":	{
+				"x":	49,
+				"y":	11,
+				"width":	91,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"UserId",
+				"mgformat":	"mgFormat",
+				"format":	"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+				"attribute":	"A",
+				"common_line_id":	"line11"
+			},
+			"coordinates":	{
+				"x":	151,
+				"y":	11,
+				"width":	308,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"UserNameLbl",
+				"text":	"User Name:",
+				"common_line_id":	"line50"
+			},
+			"coordinates":	{
+				"x":	49,
+				"y":	50,
+				"width":	91,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"UserName",
+				"mgformat":	"mgFormat",
+				"format":	"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+				"attribute":	"A",
+				"common_line_id":	"line50"
+			},
+			"coordinates":	{
+				"x":	151,
+				"y":	50,
+				"width":	308,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"PassLbl",
+				"text":	"Password:",
+				"common_line_id":	"line89"
+			},
+			"coordinates":	{
+				"x":	49,
+				"y":	89,
+				"width":	91,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Password",
+				"password_edit":	true,
+				"mgformat":	"mgFormat",
+				"format":	"XXXXXXXXXXXXXXXXXXXX",
+				"attribute":	"A",
+				"common_line_id":	"line89"
+			},
+			"coordinates":	{
+				"x":	150,
+				"y":	89,
+				"width":	308,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"UserEmailIdLbl",
+				"text":	"User Email ID:",
+				"common_line_id":	"line128"
+			},
+			"coordinates":	{
+				"x":	49,
+				"y":	128,
+				"width":	91,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vUserEmailID",
+				"mgformat":	"mgFormat",
+				"format":	"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+				"attribute":	"A",
+				"common_line_id":	"line128"
+			},
+			"coordinates":	{
+				"x":	150,
+				"y":	128,
+				"width":	308,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"UserMobileLbl",
+				"text":	"User Mobile:",
+				"common_line_id":	"line167"
+			},
+			"coordinates":	{
+				"x":	49,
+				"y":	167,
+				"width":	91,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vUserMobile",
+				"mgformat":	"mgFormat",
+				"format":	"##########",
+				"attribute":	"N",
+				"common_line_id":	"line167"
+			},
+			"coordinates":	{
+				"x":	150,
+				"y":	167,
+				"width":	308,
+				"height":	26
+			},
+			"hint":	{
+				"text":	{
+					"value":	"10 Digit Number Only",
+					"has_exp":	false
+				},
+				"hint_color":	null
+			},
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vSubmitOrCloseBtn",
+				"visible":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"format":	"Submit",
+				"common_line_id":	"line232"
+			},
+			"coordinates":	{
+				"x":	276,
+				"y":	232,
+				"width":	87,
+				"height":	31
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"CancelBtn",
+				"format":	"\u0026Cancel",
+				"common_line_id":	"line232"
+			},
+			"coordinates":	{
+				"x":	374,
+				"y":	232,
+				"width":	83,
+				"height":	31
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		}
+	]
+}

@@ -1,0 +1,187 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"UserGroupList",
+		"window_type":	1,
+		"component_path":	"WCADMIN/AssignRightsGroupsToUser/UserGroupList/",
+		"module_name":	"",
+		"component_uniquename":	"AssignRightsGroupsToUser_UserGroupList_UserGroupList"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	788,
+		"height":	317
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	{
+				"line_divider":	true
+			},
+			"props":	{
+				"id":	"Table1",
+				"table_row_height":	26,
+				"table_title_height":	20,
+				"common_line_id":	"line12"
+			},
+			"coordinates":	{
+				"x":	5,
+				"y":	13,
+				"width":	375,
+				"height":	296
+			},
+			"hint":	null,
+			"controlType":	"A",
+			"children":	[
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column3",
+						"column_title":	"Group Id",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	100
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"GroupId",
+								"mgformat":	"mgFormat",
+								"format":	"####",
+								"attribute":	"N",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line37"
+							},
+							"coordinates":	{
+								"x":	9,
+								"y":	37,
+								"width":	91,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column2",
+						"column_title":	"Group Name",
+						"sortable":	true,
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	212
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"GroupName",
+								"mgformat":	"mgFormat",
+								"format":	"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+								"attribute":	"A",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line37"
+							},
+							"coordinates":	{
+								"x":	110,
+								"y":	37,
+								"width":	206,
+								"height":	20
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column10",
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	55
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"btndel",
+								"format":	"Remove",
+								"is_table_child":	true,
+								"web_style":	2,
+								"row_editing_type":	0,
+								"common_line_id":	"line37"
+							},
+							"coordinates":	{
+								"x":	321,
+								"y":	37,
+								"width":	48,
+								"height":	22
+							},
+							"hint":	null,
+							"controlType":	"B",
+							"children":	null
+						}
+					]
+				}
+			]
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vSelectedGroupName",
+				"modifiable":	false,
+				"mgformat":	"mgFormat",
+				"format":	"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+				"attribute":	"A",
+				"common_line_id":	"line12"
+			},
+			"coordinates":	{
+				"x":	392,
+				"y":	12,
+				"width":	196,
+				"height":	18
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"GroupRights",
+				"common_line_id":	"line51"
+			},
+			"coordinates":	{
+				"x":	392,
+				"y":	51,
+				"width":	390,
+				"height":	256
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		}
+	]
+}

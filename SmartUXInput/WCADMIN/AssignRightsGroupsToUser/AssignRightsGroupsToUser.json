@@ -1,0 +1,178 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"AssignRightsGroupsToUser",
+		"component_path":	"WCADMIN/AssignRightsGroupsToUser/",
+		"module_name":	"",
+		"component_uniquename":	"AssignRightsGroupsToUser_AssignRightsGroupsToUser"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	824,
+		"height":	391
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"UserLbl",
+				"text":	"User",
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	13,
+				"y":	10,
+				"width":	43,
+				"height":	20
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vUser",
+				"mgformat":	"mgFormat",
+				"format":	"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+				"attribute":	"A",
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	60,
+				"y":	9,
+				"width":	102,
+				"height":	24
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"btnUser",
+				"format":	"...",
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	167,
+				"y":	10,
+				"width":	39,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Label7",
+				"text":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	210,
+				"y":	8,
+				"width":	310,
+				"height":	23
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vRightsOrGroup",
+				"visible":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"items_list":	"R,G",
+				"attribute":	"A",
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	540,
+				"y":	8,
+				"width":	90,
+				"height":	41
+			},
+			"hint":	null,
+			"controlType":	"R",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"btnRights",
+				"visible":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"format":	{
+					"value":	"Assign Rights/Group",
+					"has_exp":	true
+				},
+				"common_line_id":	"line8"
+			},
+			"coordinates":	{
+				"x":	675,
+				"y":	9,
+				"width":	107,
+				"height":	28
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"RightsSub1",
+				"visible":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"common_line_id":	"line64"
+			},
+			"coordinates":	{
+				"x":	8,
+				"y":	64,
+				"width":	809,
+				"height":	158
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"GroupSub2",
+				"visible":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"common_line_id":	"line226"
+			},
+			"coordinates":	{
+				"x":	8,
+				"y":	226,
+				"width":	809,
+				"height":	158
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		}
+	]
+}

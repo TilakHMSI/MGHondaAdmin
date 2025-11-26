@@ -1,0 +1,155 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"GroupCM",
+		"window_type":	12,
+		"custom_properties":	[
+			"FormName"
+		],
+		"component_path":	"WCADMIN/GroupCM/",
+		"module_name":	"",
+		"component_uniquename":	"GroupCM_GroupCM"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	471,
+		"height":	283
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"GroupIdLbl",
+				"text":	"Group ID:",
+				"common_line_id":	"line11"
+			},
+			"coordinates":	{
+				"x":	49,
+				"y":	11,
+				"width":	91,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vGroupId",
+				"enabled":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"mgformat":	"mgFormat",
+				"format":	"####",
+				"attribute":	"N",
+				"common_line_id":	"line11"
+			},
+			"coordinates":	{
+				"x":	151,
+				"y":	11,
+				"width":	308,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"GroupNameLbl",
+				"text":	"Group Name:",
+				"common_line_id":	"line50"
+			},
+			"coordinates":	{
+				"x":	49,
+				"y":	50,
+				"width":	91,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vGroupName",
+				"mgformat":	"mgFormat",
+				"format":	"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+				"attribute":	"A",
+				"common_line_id":	"line50"
+			},
+			"coordinates":	{
+				"x":	151,
+				"y":	50,
+				"width":	308,
+				"height":	26
+			},
+			"hint":	null,
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vActive",
+				"text":	"Active",
+				"attribute":	"B",
+				"common_line_id":	"line94"
+			},
+			"coordinates":	{
+				"x":	150,
+				"y":	94,
+				"width":	67,
+				"height":	19
+			},
+			"hint":	null,
+			"controlType":	"C",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vSubmitOrCloseBtn",
+				"visible":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"format":	"Submit",
+				"common_line_id":	"line232"
+			},
+			"coordinates":	{
+				"x":	276,
+				"y":	232,
+				"width":	87,
+				"height":	31
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"CancelBtn",
+				"format":	"\u0026Cancel",
+				"common_line_id":	"line232"
+			},
+			"coordinates":	{
+				"x":	374,
+				"y":	232,
+				"width":	83,
+				"height":	31
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		}
+	]
+}

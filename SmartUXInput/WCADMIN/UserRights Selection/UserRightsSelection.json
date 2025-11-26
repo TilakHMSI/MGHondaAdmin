@@ -1,0 +1,95 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"UserRightsSelection",
+		"window_type":	12,
+		"component_path":	"WCADMIN/UserRights Selection/",
+		"module_name":	"",
+		"component_uniquename":	"UserRights_Selection_UserRightsSelection"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	464,
+		"height":	420
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	null,
+			"props":	{
+				"id":	"SearchLbl",
+				"text":	"Search:",
+				"common_line_id":	"line28"
+			},
+			"coordinates":	{
+				"x":	10,
+				"y":	28,
+				"width":	54,
+				"height":	18
+			},
+			"hint":	null,
+			"controlType":	"L",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"vSerachEdit",
+				"mgformat":	"mgFormat",
+				"format":	"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+				"attribute":	"A",
+				"common_line_id":	"line28"
+			},
+			"coordinates":	{
+				"x":	69,
+				"y":	28,
+				"width":	297,
+				"height":	27
+			},
+			"hint":	{
+				"text":	{
+					"value":	"Search By Rights Key, Name",
+					"has_exp":	false
+				},
+				"hint_color":	null
+			},
+			"controlType":	"T",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"SearchBtn",
+				"format":	"Search",
+				"common_line_id":	"line28"
+			},
+			"coordinates":	{
+				"x":	370,
+				"y":	28,
+				"width":	78,
+				"height":	27
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"Sub1",
+				"common_line_id":	"line66"
+			},
+			"coordinates":	{
+				"x":	9,
+				"y":	66,
+				"width":	439,
+				"height":	346
+			},
+			"hint":	null,
+			"controlType":	"F",
+			"children":	null
+		}
+	]
+}

@@ -1,0 +1,1031 @@
+[
+	{
+		"programName":	"UsersMaster",
+		"isnPrg":	7,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"UsersMaster",
+				"formId":	"WCADMIN/UsersMaster/UsersMaster",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"UserList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"UserList",
+						"formId":	"WCADMIN/UsersMaster/UserList/UserList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	},
+	{
+		"programName":	"UserCM",
+		"isnPrg":	8,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"AddUser",
+				"formId":	"WCADMIN/UserCM/AddUser",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			
+		]
+	},
+	{
+		"programName":	"RightsCM",
+		"isnPrg":	10,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"RightsCM",
+				"formId":	"WCADMIN/RightsCM/RightsCM",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			
+		]
+	},
+	{
+		"programName":	"GroupMaster",
+		"isnPrg":	11,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"GroupMaster",
+				"formId":	"WCADMIN/GroupMaster/GroupMaster",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"GroupList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"GroupList",
+						"formId":	"WCADMIN/GroupMaster/GroupList/GroupList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	},
+	{
+		"programName":	"GroupCM",
+		"isnPrg":	12,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"GroupCM",
+				"formId":	"WCADMIN/GroupCM/GroupCM",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			
+		]
+	},
+	{
+		"programName":	"AssignRightsToGroup",
+		"isnPrg":	13,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"AssignRightsToGroup",
+				"formId":	"WCADMIN/AssignRightsToGroup/AssignRightsToGroup",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"RightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"RightsList",
+						"formId":	"WCADMIN/AssignRightsToGroup/RightsList/RightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	},
+	{
+		"programName":	"AssignRightsGroupsToUser",
+		"isnPrg":	14,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"AssignRightsGroupsToUser",
+				"formId":	"WCADMIN/AssignRightsGroupsToUser/AssignRightsGroupsToUser",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"UserRightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"UserRightsList",
+						"formId":	"WCADMIN/AssignRightsGroupsToUser/UserRightsList/UserRightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			},
+			{
+				"programName":	"UserGroupList",
+				"isnPrg":	3,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"UserGroupList",
+						"formId":	"WCADMIN/AssignRightsGroupsToUser/UserGroupList/UserGroupList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					{
+						"programName":	"GroupRightsList",
+						"isnPrg":	4,
+						"container":	"Directory",
+						"forms":	[
+							{
+								"formName":	"GroupRightsList",
+								"formId":	"WCADMIN/AssignRightsGroupsToUser/UserGroupList/GroupRightsList/GroupRightsList",
+								"formIsn":	1,
+								"containsTableControl":	true,
+								"containsTabControl":	false,
+								"overlay":	false
+							}
+						],
+						"tasks":	[
+							
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"programName":	"ChangeUserPassword",
+		"isnPrg":	15,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"ChangeUserPassword",
+				"formId":	"WCADMIN/ChangeUserPassword/ChangeUserPassword",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			
+		]
+	},
+	{
+		"programName":	"Group Selection",
+		"isnPrg":	16,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"GroupMaster",
+				"formId":	"WCADMIN/Group Selection/GroupMaster",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"GroupList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"GroupList",
+						"formId":	"WCADMIN/Group Selection/GroupList/GroupList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	},
+	{
+		"programName":	"Rights Selection",
+		"isnPrg":	17,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"RightsSelection",
+				"formId":	"WCADMIN/Rights Selection/RightsSelection",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"RightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"RightsList",
+						"formId":	"WCADMIN/Rights Selection/RightsList/RightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	},
+	{
+		"programName":	"User Selection",
+		"isnPrg":	18,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"UserSelection",
+				"formId":	"WCADMIN/User Selection/UserSelection",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"UserList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"UserList",
+						"formId":	"WCADMIN/User Selection/UserList/UserList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	},
+	{
+		"programName":	"UserRights Selection",
+		"isnPrg":	19,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"UserRightsSelection",
+				"formId":	"WCADMIN/UserRights Selection/UserRightsSelection",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"RightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"RightsList",
+						"formId":	"WCADMIN/UserRights Selection/RightsList/RightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	},
+	{
+		"programName":	"UserGroup Selection",
+		"isnPrg":	20,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"UserGroupSelection",
+				"formId":	"WCADMIN/UserGroup Selection/UserGroupSelection",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"GroupList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"GroupList",
+						"formId":	"WCADMIN/UserGroup Selection/GroupList/GroupList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					{
+						"programName":	"GroupRightsList",
+						"isnPrg":	3,
+						"container":	"Directory",
+						"forms":	[
+							{
+								"formName":	"GroupRightsList",
+								"formId":	"WCADMIN/UserGroup Selection/GroupList/GroupRightsList/GroupRightsList",
+								"formIsn":	1,
+								"containsTableControl":	true,
+								"containsTabControl":	false,
+								"overlay":	false
+							}
+						],
+						"tasks":	[
+							
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"programName":	"UsersMaster",
+		"isnPrg":	7,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"UsersMaster",
+				"formId":	"WCADMIN/UsersMaster/UsersMaster",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"UserList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"UserList",
+						"formId":	"WCADMIN/UsersMaster/UserList/UserList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"UserCM",
+		"isnPrg":	8,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"AddUser",
+				"formId":	"WCADMIN/UserCM/AddUser",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"RightsCM",
+		"isnPrg":	10,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"RightsCM",
+				"formId":	"WCADMIN/RightsCM/RightsCM",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"GroupMaster",
+		"isnPrg":	11,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"GroupMaster",
+				"formId":	"WCADMIN/GroupMaster/GroupMaster",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"GroupList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"GroupList",
+						"formId":	"WCADMIN/GroupMaster/GroupList/GroupList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"GroupCM",
+		"isnPrg":	12,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"GroupCM",
+				"formId":	"WCADMIN/GroupCM/GroupCM",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"AssignRightsToGroup",
+		"isnPrg":	13,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"AssignRightsToGroup",
+				"formId":	"WCADMIN/AssignRightsToGroup/AssignRightsToGroup",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"RightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"RightsList",
+						"formId":	"WCADMIN/AssignRightsToGroup/RightsList/RightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"AssignRightsGroupsToUser",
+		"isnPrg":	14,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"AssignRightsGroupsToUser",
+				"formId":	"WCADMIN/AssignRightsGroupsToUser/AssignRightsGroupsToUser",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"UserRightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"UserRightsList",
+						"formId":	"WCADMIN/AssignRightsGroupsToUser/UserRightsList/UserRightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			},
+			{
+				"programName":	"UserGroupList",
+				"isnPrg":	3,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"UserGroupList",
+						"formId":	"WCADMIN/AssignRightsGroupsToUser/UserGroupList/UserGroupList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					{
+						"programName":	"GroupRightsList",
+						"isnPrg":	4,
+						"container":	"Directory",
+						"forms":	[
+							{
+								"formName":	"GroupRightsList",
+								"formId":	"WCADMIN/AssignRightsGroupsToUser/UserGroupList/GroupRightsList/GroupRightsList",
+								"formIsn":	1,
+								"containsTableControl":	true,
+								"containsTabControl":	false,
+								"overlay":	false
+							}
+						],
+						"tasks":	[
+							
+						]
+					}
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"ChangeUserPassword",
+		"isnPrg":	15,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"ChangeUserPassword",
+				"formId":	"WCADMIN/ChangeUserPassword/ChangeUserPassword",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"Group Selection",
+		"isnPrg":	16,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"GroupMaster",
+				"formId":	"WCADMIN/Group Selection/GroupMaster",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"GroupList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"GroupList",
+						"formId":	"WCADMIN/Group Selection/GroupList/GroupList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"Rights Selection",
+		"isnPrg":	17,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"RightsSelection",
+				"formId":	"WCADMIN/Rights Selection/RightsSelection",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"RightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"RightsList",
+						"formId":	"WCADMIN/Rights Selection/RightsList/RightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"User Selection",
+		"isnPrg":	18,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"UserSelection",
+				"formId":	"WCADMIN/User Selection/UserSelection",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"UserList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"UserList",
+						"formId":	"WCADMIN/User Selection/UserList/UserList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"UserRights Selection",
+		"isnPrg":	19,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"UserRightsSelection",
+				"formId":	"WCADMIN/UserRights Selection/UserRightsSelection",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"RightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"RightsList",
+						"formId":	"WCADMIN/UserRights Selection/RightsList/RightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"UserGroup Selection",
+		"isnPrg":	20,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"UserGroupSelection",
+				"formId":	"WCADMIN/UserGroup Selection/UserGroupSelection",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"GroupList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"GroupList",
+						"formId":	"WCADMIN/UserGroup Selection/GroupList/GroupList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					{
+						"programName":	"GroupRightsList",
+						"isnPrg":	3,
+						"container":	"Directory",
+						"forms":	[
+							{
+								"formName":	"GroupRightsList",
+								"formId":	"WCADMIN/UserGroup Selection/GroupList/GroupRightsList/GroupRightsList",
+								"formIsn":	1,
+								"containsTableControl":	true,
+								"containsTabControl":	false,
+								"overlay":	false
+							}
+						],
+						"tasks":	[
+							
+						]
+					}
+				]
+			}
+		],
+		"isDuplicate":	"YES"
+	},
+	{
+		"programName":	"MainPage",
+		"isnPrg":	4,
+		"forms":	[
+			{
+				"formName":	"HomePage",
+				"formId":	"/MainPage/HomePage",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			
+		]
+	},
+	{
+		"programName":	"LoginScreen",
+		"isnPrg":	5,
+		"forms":	[
+			{
+				"formName":	"LoginScreen",
+				"formId":	"/LoginScreen/LoginScreen",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			
+		]
+	},
+	{
+		"programName":	"Home",
+		"isnPrg":	6,
+		"forms":	[
+			{
+				"formName":	"HomePage",
+				"formId":	"/Home/HomePage",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"Default",
+				"isnPrg":	2,
+				"forms":	[
+					{
+						"formName":	"Default",
+						"formId":	"/Home/Default/Default",
+						"formIsn":	1,
+						"containsTableControl":	false,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	},
+	{
+		"programName":	"UserCM_Bkp_PassEnc",
+		"isnPrg":	48,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"AddUser",
+				"formId":	"WCADMIN/UserCM_Bkp_PassEnc/AddUser",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	true
+			}
+		],
+		"tasks":	[
+			
+		]
+	},
+	{
+		"programName":	"ChangeUserPassword_BkpPassEnc",
+		"isnPrg":	49,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"ChangeUserPassword",
+				"formId":	"WCADMIN/ChangeUserPassword_BkpPassEnc/ChangeUserPassword",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			
+		]
+	},
+	{
+		"programName":	"RightsMaster",
+		"isnPrg":	9,
+		"container":	"Directory",
+		"forms":	[
+			{
+				"formName":	"RightsMaster",
+				"formId":	"WCADMIN/RightsMaster/RightsMaster",
+				"formIsn":	1,
+				"containsTableControl":	false,
+				"containsTabControl":	false,
+				"overlay":	false
+			}
+		],
+		"tasks":	[
+			{
+				"programName":	"RightsList",
+				"isnPrg":	2,
+				"container":	"Directory",
+				"forms":	[
+					{
+						"formName":	"RightsList",
+						"formId":	"WCADMIN/RightsMaster/RightsList/RightsList",
+						"formIsn":	1,
+						"containsTableControl":	true,
+						"containsTabControl":	false,
+						"overlay":	false
+					}
+				],
+				"tasks":	[
+					
+				]
+			}
+		]
+	}
+]

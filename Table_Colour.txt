@@ -1,0 +1,12 @@
+Insurance@Lic#2885
+magic@SK#12345
+
+Trim(P)&C&Trim(K)&C&','
+RepStr(Trim(P),C&Trim(K)&C&',','')
+
+
+#cceced !important
+#c00!important; color: #fff;
+#ed5d53 !important; color: #fff;
+#cceced!important; color: #181c32;
+#181c32

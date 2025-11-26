@@ -1,0 +1,138 @@
+{
+	"style":	null,
+	"props":	{
+		"id":	"GroupList",
+		"window_type":	1,
+		"component_path":	"WCADMIN/Group Selection/GroupList/",
+		"module_name":	"",
+		"component_uniquename":	"Group_Selection_GroupList_GroupList"
+	},
+	"coordinates":	{
+		"x":	0,
+		"y":	0,
+		"width":	332,
+		"height":	335
+	},
+	"hint":	null,
+	"controlType":	null,
+	"children":	[
+		{
+			"style":	{
+				"line_divider":	true
+			},
+			"props":	{
+				"id":	"Table9",
+				"visible":	{
+					"value":	null,
+					"has_exp":	true
+				},
+				"table_row_height":	29,
+				"table_title_height":	26,
+				"common_line_id":	"line9"
+			},
+			"coordinates":	{
+				"x":	8,
+				"y":	9,
+				"width":	284,
+				"height":	280
+			},
+			"hint":	null,
+			"controlType":	"A",
+			"children":	[
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column10",
+						"column_title":	"Group Id",
+						"sortable":	true,
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	94
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"GroupId",
+								"mgformat":	"mgFormat",
+								"format":	"####",
+								"attribute":	"N",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line39"
+							},
+							"coordinates":	{
+								"x":	16,
+								"y":	39,
+								"width":	87,
+								"height":	19
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				},
+				{
+					"style":	null,
+					"props":	{
+						"id":	"Column21",
+						"column_title":	"Group Name",
+						"sortable":	true,
+						"is_table_child":	true,
+						"web_style":	2
+					},
+					"coordinates":	{
+						"width":	181
+					},
+					"hint":	null,
+					"controlType":	"K",
+					"children":	[
+						{
+							"style":	null,
+							"props":	{
+								"id":	"GroupName",
+								"mgformat":	"mgFormat",
+								"format":	"UUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+								"attribute":	"A",
+								"is_table_child":	true,
+								"web_style":	2,
+								"common_line_id":	"line39"
+							},
+							"coordinates":	{
+								"x":	106,
+								"y":	39,
+								"width":	172,
+								"height":	18
+							},
+							"hint":	null,
+							"controlType":	"T",
+							"children":	null
+						}
+					]
+				}
+			]
+		},
+		{
+			"style":	null,
+			"props":	{
+				"id":	"btnSelect",
+				"format":	"Select",
+				"common_line_id":	"line301"
+			},
+			"coordinates":	{
+				"x":	8,
+				"y":	301,
+				"width":	71,
+				"height":	22
+			},
+			"hint":	null,
+			"controlType":	"B",
+			"children":	null
+		}
+	]
+}
