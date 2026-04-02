@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="LoginScreen" ISN_2="1" LastIsn="8" id="5">
-          <LastModified _date="739580" _time="53616" date="25/11/2025" time="14:53:36"/>
+          <LastModified _date="739708" _time="66793" date="02/04/2026" time="18:33:13"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -43,7 +43,7 @@
             <Column id="2" name="vUser ID">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
-                <Picture id="157" valUnicode="30"/>
+                <Picture id="157" valUnicode="U30"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="30"/>
                 <_Flip id="194"/>
@@ -278,6 +278,37 @@
                   <Modifier val="S"/>
                   <Direction val="C"/>
                 </Select>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="8" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="S"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="160">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="-1" obj="63"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <IsRoute val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </CallTask>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -725,6 +756,52 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="7" propagate="78">
+            <Level val="R"/>
+            <Type val="P"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <BLOCK EndBlock="156" EndBlockSegment="156" FlowIsn="155" Type="I">
+                  <Condition Exp="24"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="157">
+                  <FieldID val="2"/>
+                  <WithValue val="25"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="158">
+                  <FieldID val="3"/>
+                  <WithValue val="23"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="156"/>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
           <FormEntry _last_isn="5" _last_test_id="8" id="1">
@@ -891,8 +968,16 @@
             <ExpSyntax val="{0,18}"/>
             <ExpAttribute val="B"/>
           </Expression>
-          <Expression id="21">
-            <ExpSyntax val="{0,3}"/>
+          <Expression id="23">
+            <ExpSyntax val="'Pass@123'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="24">
+            <ExpSyntax val="INIGet('[MAGIC_LOGICAL_NAMES]DEV')= 'D'"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="25">
+            <ExpSyntax val="'SUPERVISOR'"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>

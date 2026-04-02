@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="22"/>
+  <LastIsn val="29"/>
 
   <LastIsnFolder val="0"/>
 
@@ -2431,6 +2431,344 @@
   </Columns>
 
   <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="FACTORYCODE" Resident="N" UniqueISNConvState="12" data_source="BOM" id="29" name="FACTORYCODE">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Owner val="honda"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-2"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="1" name="FACTORY_CD">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="8"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="FACTORY_CD"/>
+        <Type id="179" val="VARCHAR2(8)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="FACTORY_CD" PIC_U="8" Size="8" SqlType="VARCHAR2(8)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="2" name="FACTORY_NAME">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="50"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="50"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="FACTORY_NAME"/>
+        <Type id="179" val="VARCHAR2(50)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="FACTORY_NAME" PIC_U="50" Size="50" SqlType="VARCHAR2(50)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="3" name="FACTORY_GL">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="20"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="FACTORY_GL"/>
+        <Type id="179" val="VARCHAR2(20)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="FACTORY_GL" PIC_U="20" Size="20" SqlType="VARCHAR2(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="4" name="INVOICE_PREFIX">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="4"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="INVOICE_PREFIX"/>
+        <Type id="179" val="VARCHAR2(4)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="INVOICE_PREFIX" PIC_U="4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="5" name="ACTIVEFLAG">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="ACTIVEFLAG"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="1"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="ACTIVEFLAG" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+        <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="6" name="CURRENTF">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="CURRENTF"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="1"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="CURRENTF" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+        <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="7" name="HQ">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="HQ"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="1"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="HQ" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+        <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="8" name="PLAN_DAYS">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="N2"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="PLAN_DAYS"/>
+        <Type id="179" val="NUMBER(2)"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="2"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="PLAN_DAYS" PIC_U="N2" Size="8" SqlType="NUMBER(2)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="9" name="SERVICE_PREFIX">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="4"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="SERVICE_PREFIX"/>
+        <Type id="179" val="VARCHAR2(4)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="SERVICE_PREFIX" PIC_U="4" Size="4" SqlType="VARCHAR2(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="10" name="MC">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="MC"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="1"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="MC" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+        <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="11" name="SC">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="SC"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="1"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="SC" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+        <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="12" name="MIXED">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="MIXED"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="1"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="MIXED" PIC_U="5" Size="1" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+        <PartOfDatetime id="244"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="13" name="DISPLAY_BOARD_FLAGE">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="1"/>
+        <NullAllowed id="166"/>
+        <NullDefault id="169"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="DISPLAY_BOARD_FLAGE"/>
+        <Type id="179" val="CHAR(1)"/>
+        <UserType id="180"/>
+        <_FieldPhysical Name="DISPLAY_BOARD_FLAGE" PIC_U="1" Size="1" SqlType="CHAR(1)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+    <Column id="14" name="LEAD_TIME">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Modifiable id="53" val="Y"/>
+        <Range id="98"/>
+        <Picture id="157" valUnicode="N2"/>
+        <NullAllowed id="166" val="Y"/>
+        <NullDefault id="169" val="Y"/>
+        <DatabaseDefault id="171"/>
+        <CharSet id="172" val="1"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DatabaseInformation id="177"/>
+        <DbColumnName id="178" val="LEAD_TIME"/>
+        <Type id="179" val="NUMBER(2)"/>
+        <UserType id="180"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="2"/>
+        <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="LEAD_TIME" PIC_U="N2" Size="8" SqlType="NUMBER(2)" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <PartOfDatetime id="244"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="1" name="FACT">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="FACT"/>
+      <Info val="SQLOWNER=&quot;HONDA&quot;"/>
+      <HasHint val="N"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="Y"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="8"/>
+          <Column val="1"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
 
   <ForeignKeys/>
 

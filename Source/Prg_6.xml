@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Home" ISN_2="1" LastIsn="2" id="6">
-          <LastModified _date="739579" _time="66173" date="24/11/2025" time="18:22:53"/>
+          <LastModified _date="739708" _time="66545" date="02/04/2026" time="18:29:05"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -319,6 +319,10 @@
                     <Name val="Module"/>
                     <Expression val="3"/>
                   </CustomProperty>
+                  <CustomProperty>
+                    <Name val="FactoryCode"/>
+                    <Expression val="5"/>
+                  </CustomProperty>
                 </CustomProperties>
               </CustomProperties>
             </PropertyList>
@@ -364,6 +368,10 @@
           </Expression>
           <Expression id="3">
             <ExpSyntax val="'Admin Module'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="5">
+            <ExpSyntax val="{32768,546}"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>

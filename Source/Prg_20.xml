@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="UserGroup Selection" ISN_2="1" LastIsn="5" id="20">
-          <LastModified _date="739581" _time="40680" date="26/11/2025" time="11:18:00"/>
+          <LastModified _date="739594" _time="64690" date="09/12/2025" time="17:58:10"/>
           <Comment val="ek&#xD;&#xA;dw&#xD;&#xA;er&#xD;&#xA;em&#xD;&#xA;ej&#xD;&#xA;ed&#xD;&#xA;dz&#xD;&#xA;ea&#xD;&#xA;fe&#xD;&#xA;et&#xD;&#xA;ex&#xD;&#xA;=====&#xD;&#xA;eu&#xD;&#xA;ew&#xD;&#xA;es&#xD;&#xA;ff&#xD;&#xA;ev&#xD;&#xA;fh&#xD;&#xA;fi&#xD;&#xA;fg&#xD;&#xA;fb&#xD;&#xA;fc&#xD;&#xA;fd&#xD;&#xA;fj&#xD;&#xA;fk"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -395,7 +395,7 @@
         </EVNT>
         <Task MainProgram="N">
           <Header Description="GroupList" ISN_2="2" LastIsn="5" id="20">
-            <LastModified _date="739566" _time="67069" date="11/11/2025" time="18:37:49"/>
+            <LastModified _date="739594" _time="64690" date="09/12/2025" time="17:58:10"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1081,7 +1081,7 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="6">
-              <ExpSyntax val="InStr(Trim({0,6}),Trim(Str({0,2},'')))=0"/>
+              <ExpSyntax val="InStr(Trim({0,6}),{32768,3}&amp;Trim(Str({0,2},''))&amp;{32768,3})=0"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="7">

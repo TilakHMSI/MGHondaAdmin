@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="RightsCM" ISN_2="1" LastIsn="3" id="10">
-          <LastModified _date="739580" _time="56040" date="25/11/2025" time="15:34:00"/>
+          <LastModified _date="739595" _time="38122" date="10/12/2025" time="10:35:22"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -1041,6 +1041,7 @@
                 <Data FieldID="9" id="43"/>
                 <Text id="45" valUnicode="Is Menu Rights"/>
                 <ControlName id="46" val="vIsMenuRights"/>
+                <Visible Exp="26" id="61"/>
               </PropertyList>
             </Control>
             <Control _test_id="45" id="6">

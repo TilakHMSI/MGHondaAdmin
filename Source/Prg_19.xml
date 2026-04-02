@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="UserRights Selection" ISN_2="1" LastIsn="4" id="19">
-          <LastModified _date="739581" _time="40740" date="26/11/2025" time="11:19:00"/>
+          <LastModified _date="739594" _time="64567" date="09/12/2025" time="17:56:07"/>
           <Comment val="ek&#xD;&#xA;dw&#xD;&#xA;er&#xD;&#xA;em&#xD;&#xA;ej&#xD;&#xA;ed&#xD;&#xA;dz&#xD;&#xA;ea&#xD;&#xA;fe&#xD;&#xA;et&#xD;&#xA;ex&#xD;&#xA;=====&#xD;&#xA;eu&#xD;&#xA;ew&#xD;&#xA;es&#xD;&#xA;ff&#xD;&#xA;ev&#xD;&#xA;fh&#xD;&#xA;fi&#xD;&#xA;fg&#xD;&#xA;fb&#xD;&#xA;fc&#xD;&#xA;fd&#xD;&#xA;fj&#xD;&#xA;fk"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -395,7 +395,7 @@
         </EVNT>
         <Task MainProgram="N">
           <Header Description="RightsList" ISN_2="2" LastIsn="4" id="19">
-            <LastModified _date="739566" _time="67055" date="11/11/2025" time="18:37:35"/>
+            <LastModified _date="739594" _time="64567" date="09/12/2025" time="17:56:07"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -1066,7 +1066,7 @@
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="6">
-              <ExpSyntax val="InStr(Trim({0,7}),Trim({0,2}))=0"/>
+              <ExpSyntax val="InStr(Trim({0,7}),Trim({32768,3})&amp;Trim({0,2})&amp;Trim({32768,3}))=0"/>
               <ExpAttribute val="B"/>
             </Expression>
             <Expression id="7">
@@ -1084,6 +1084,10 @@
             <Expression id="10">
               <ExpSyntax val="{0,6}"/>
               <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="11">
+              <ExpSyntax val="{0,7}"/>
+              <ExpAttribute val="A"/>
             </Expression>
           </Expressions>
           <EVNT DESC="SelectAll" FORCE_EXIT="N" id="1">
