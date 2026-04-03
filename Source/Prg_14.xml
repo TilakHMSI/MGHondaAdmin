@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="AssignRightsGroupsToUser" ISN_2="1" LastIsn="10" id="14">
-          <LastModified _date="739581" _time="38310" date="26/11/2025" time="10:38:30"/>
+          <LastModified _date="739709" _time="59390" date="03/04/2026" time="16:29:50"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -31,7 +31,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="8"/>
+        <ItemIsn val="10"/>
         <Resource>
           <DB id="1">
             <DataObject comp="-1" obj="2"/>
@@ -57,6 +57,26 @@
                 <DefaultValue id="170" val="R"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="1"/>
+                <_Flip id="194"/>
+                <PartOfDataview id="449"/>
+              </PropertyList>
+            </Column>
+            <Column id="6" name="vRights">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="20"/>
+                <_Flip id="194"/>
+                <PartOfDataview id="449"/>
+              </PropertyList>
+            </Column>
+            <Column id="7" name="vFilter">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="150"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="150"/>
                 <_Flip id="194"/>
                 <PartOfDataview id="449"/>
               </PropertyList>
@@ -185,6 +205,7 @@
                   <INT_DIT_INFO>
                     <v>1</v>
                     <v>4</v>
+                    <v>9</v>
                     <v>6</v>
                     <v>7</v>
                   </INT_DIT_INFO>
@@ -203,10 +224,38 @@
                   <IsParameter val="N"/>
                   <INT_DIT_INFO>
                     <v>4</v>
+                    <v>9</v>
                     <v>6</v>
                     <v>7</v>
                   </INT_DIT_INFO>
                   <_DitIndexForToolkit val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="9" FlowIsn="31" id="9">
+                  <Column val="6"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="7"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="10" FlowIsn="32" id="10">
+                  <Column val="7"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
                   <DIFF_UPDATE val="T"/>
                   <PartOfDataview val="N"/>
                   <Condition val="Y"/>
@@ -228,7 +277,7 @@
                 </Select>
               </LogicLine>
               <LogicLine>
-                <LNK Direction="A" EVL_CND="R" FieldID="3" FlowIsn="6" Key="1" Mode="R" SortType="10" VIEW="4" VIEWS="3">
+                <LNK Direction="A" EVL_CND="R" FieldID="3" FlowIsn="6" Key="1" Mode="R" SortType="10" VIEW="6" VIEWS="3">
                   <DB comp="-1" obj="2"/>
                   <Condition val="Y"/>
                 </LNK>
@@ -283,10 +332,9 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
-          <LogicUnit id="3" propagate="78">
-            <Level val="V"/>
-            <Type val="C"/>
-            <FieldID val="1"/>
+          <LogicUnit id="4" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
             <Scope val="S"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
@@ -294,53 +342,20 @@
             <Event>
               <EventType val="S"/>
             </Event>
-            <Disabled val="1"/>
-            <ExecuteOn_ val="O"/>
+            <ExecuteOn_ val="S"/>
             <LogicLines>
               <LogicLine>
-                <BLOCK EndBlock="14" EndBlockSegment="14" FlowIsn="11" Type="I">
-                  <Disabled val="1"/>
-                  <Condition Exp="4"/>
-                  <Modifier val="B"/>
-                  <Direction val="C"/>
-                </BLOCK>
-              </LogicLine>
-              <LogicLine>
-                <RaiseEvent FlowIsn="13">
-                  <Event>
-                    <EventType val="I"/>
-                    <InternalEventID val="432"/>
-                  </Event>
-                  <Wait val="78"/>
-                  <Arguments>
-                    <Argument>
-                      <Expression val="1"/>
-                      <Skip val="N"/>
-                    </Argument>
-                  </Arguments>
-                  <Disabled val="1"/>
+                <Update FlowIsn="54">
+                  <FieldID val="10"/>
+                  <WithValue val="12"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
-                </RaiseEvent>
-              </LogicLine>
-              <LogicLine>
-                <END_BLK FlowIsn="14">
-                  <Disabled val="1"/>
-                </END_BLK>
+                </Update>
               </LogicLine>
             </LogicLines>
-          </LogicUnit>
-          <LogicUnit id="4" propagate="78">
-            <Level val="K"/>
-            <Scope val="S"/>
-            <EngineDirective val="S"/>
-            <ShowMessage val="Y"/>
-            <Condition val="89"/>
-            <Event>
-              <EventType val="S"/>
-            </Event>
-            <ExecuteOn_ val="O"/>
           </LogicUnit>
           <LogicUnit id="5" propagate="78">
             <Level val="H"/>
@@ -610,9 +625,53 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="9" propagate="78">
+            <Level val="C"/>
+            <Type val="S"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+            </Event>
+            <TXT val="vRights"/>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <Update FlowIsn="55">
+                  <FieldID val="10"/>
+                  <WithValue val="12"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <RaiseEvent FlowIsn="57">
+                  <Event>
+                    <EventType val="I"/>
+                    <InternalEventID val="432"/>
+                  </Event>
+                  <Wait val="78"/>
+                  <Arguments>
+                    <Argument>
+                      <Expression val="1"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Condition Exp="8"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </RaiseEvent>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="8" _last_test_id="11" id="1">
+          <FormEntry _last_isn="9" _last_test_id="12" id="1">
             <PropertyList model="FORM_WEB_CLIENT">
               <Width id="23" val="824"/>
               <Height id="24" val="391"/>
@@ -626,14 +685,14 @@
                 <Text Exp="5" id="19"/>
                 <X id="21" val="210"/>
                 <Y id="22" val="8"/>
-                <Width id="23" val="310"/>
+                <Width id="23" val="20"/>
                 <Height id="24" val="23"/>
                 <ControlName id="46" val="Label7"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="9" id="1">
               <PropertyList model="CTRL_WEB_CLIENT_RADIO">
-                <X id="21" val="540"/>
+                <X id="21" val="236"/>
                 <Y id="22" val="8"/>
                 <Width id="23" val="90"/>
                 <Height id="24" val="41"/>
@@ -695,6 +754,21 @@
                   <EventType val="U"/>
                   <PublicObject comp="-1" obj="2"/>
                 </RaiseEvent>
+              </PropertyList>
+            </Control>
+            <Control _test_id="12" id="9">
+              <PropertyList model="CTRL_WEB_CLIENT_EDIT">
+                <Model ID="MODEL_WEB_CLIENT" id="1">
+                  <Var FieldID="9"/>
+                </Model>
+                <X id="21" val="359"/>
+                <Y id="22" val="14"/>
+                <Width id="23" val="146"/>
+                <Height id="24" val="20"/>
+                <Data FieldID="9" id="43"/>
+                <ControlName id="46" val="vRights"/>
+                <Visible Exp="8" id="61"/>
+                <BindingLevel id="733" val="2"/>
               </PropertyList>
             </Control>
             <Control PDOD="128" _test_id="3" id="6">
@@ -768,6 +842,10 @@
             <ExpSyntax val="2"/>
             <ExpAttribute val="N"/>
           </Expression>
+          <Expression id="12">
+            <ExpSyntax val="'B.RightsKey Like '&amp;{32768,3}&amp;'%'&amp;Trim(Upper({0,9}))&amp;'%'&amp;{32768,3}&amp;&#xD;&#xA;' Or B.RightsName Like '&amp;{32768,3}&amp;'%'&amp;Trim(Upper({0,9}))&amp;'%'&amp;{32768,3}"/>
+            <ExpAttribute val="A"/>
+          </Expression>
         </Expressions>
         <EVNT DESC="AssignRightsGroup" FORCE_EXIT="N" id="1">
           <Event>
@@ -780,8 +858,8 @@
           </Event>
         </EVNT>
         <Task MainProgram="N">
-          <Header Description="UserRightsList" ISN_2="2" LastIsn="7" id="14">
-            <LastModified _date="739581" _time="38130" date="26/11/2025" time="10:35:30"/>
+          <Header Description="UserRightsList" ISN_2="2" LastIsn="10" id="14">
+            <LastModified _date="739709" _time="57284" date="03/04/2026" time="15:54:44"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -789,7 +867,7 @@
               <ReturnValueAttr/>
               <ParametersAttributes/>
             </ReturnValue>
-            <SqlWhereExist val="N"/>
+            <SqlWhereExist val="Y"/>
             <TaskType val="W"/>
             <Interactive val="Y"/>
             <External val="N"/>
@@ -892,6 +970,14 @@
               <Direction val="V"/>
             </BOX>
           </Information>
+          <SQL_WHERE_U>
+            <TOKEN>
+              <CODE val="1"/>
+              <SqlWhereFlags val="1"/>
+              <Parent val="1"/>
+              <VAR_ISN val="10"/>
+            </TOKEN>
+          </SQL_WHERE_U>
           <TaskLogic>
             <LogicUnit id="2" propagate="78">
               <Level val="R"/>
@@ -958,7 +1044,7 @@
                   </Select>
                 </LogicLine>
                 <LogicLine>
-                  <LNK Direction="A" EVL_CND="R" FlowIsn="6" Key="1" Mode="R" SortType="10" VIEW="4" VIEWS="3">
+                  <LNK Direction="A" EVL_CND="R" FlowIsn="6" Key="1" Mode="J" SortType="10" VIEW="4" VIEWS="3">
                     <DB comp="-1" obj="3"/>
                     <Condition val="Y"/>
                   </LNK>
@@ -1227,7 +1313,7 @@
           <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="1"/>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="2" id="2"/>
           <Task MainProgram="N">
-            <Header Description="DeleteRight" ISN_2="7" LastIsn="7" id="14">
+            <Header Description="DeleteRight" ISN_2="7" LastIsn="10" id="14">
               <LastModified _date="739581" _time="38098" date="26/11/2025" time="10:34:58"/>
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
@@ -1450,7 +1536,7 @@
           </Task>
         </Task>
         <Task MainProgram="N">
-          <Header Description="UserGroupList" ISN_2="3" LastIsn="7" id="14">
+          <Header Description="UserGroupList" ISN_2="3" LastIsn="10" id="14">
             <LastModified _date="739581" _time="38310" date="26/11/2025" time="10:38:30"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
@@ -2179,7 +2265,7 @@
             <VarRangeInfo Mode="E" VarRangeVeeIsn="5" id="3"/>
           </Task>
           <Task MainProgram="N">
-            <Header Description="GroupRightsList" ISN_2="4" LastIsn="7" id="14">
+            <Header Description="GroupRightsList" ISN_2="4" LastIsn="10" id="14">
               <LastModified _date="739519" _time="47863" date="25/09/2025" time="13:17:43"/>
               <ExecutionRight comp="-1"/>
               <Resident val="N"/>
