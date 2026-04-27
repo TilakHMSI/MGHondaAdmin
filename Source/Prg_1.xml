@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="Y">
         <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
-          <LastModified _date="739708" _time="66275" date="02/04/2026" time="18:24:35"/>
+          <LastModified _date="739709" _time="68222" date="03/04/2026" time="18:57:02"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -352,6 +352,11 @@
           </Event>
         </EVNT>
         <EVNT DESC="GDelLine" FORCE_EXIT="N" id="9">
+          <Event>
+            <EventType val="N"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="GUpdate" FORCE_EXIT="N" id="10">
           <Event>
             <EventType val="N"/>
           </Event>
