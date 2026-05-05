@@ -18,6 +18,7 @@
  <DataSourceRepository>
   <DataObjects>
  
+ 
 <DataObject PhysicalName="UAMProjectMaster" Resident="N" UniqueISNConvState="12" data_source="PRD" id="1" name="ProjectMaster">
 
   <Encrypt val="N"/>
@@ -328,6 +329,16 @@
         <_FieldPhysical Name="UserPassword" Size="28" SqlType="BLOB" allowed_null="Y" attribute="O" context_cookies="Y" database_definition="1" id="231" storage="29"/>
         <_FieldStyle id="276" val="1"/>
         <Content id="434" val="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="19" name="PassModified">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" comp="-1" id="1" obj="4"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="PassModified"/>
+        <_Flip id="194"/>
       </PropertyList>
     </Column>
   </Columns>
