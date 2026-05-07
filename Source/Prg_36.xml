@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="GroupRightsImport" ISN_2="1" LastIsn="2" id="36">
-          <LastModified _date="739566" _time="62486" date="11/11/2025" time="17:21:26"/>
+          <LastModified _date="739742" _time="58993" date="06/05/2026" time="16:23:13"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -190,6 +190,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <Locate MAX="2" MIN="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
@@ -477,7 +478,7 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">
-            <ExpSyntax val="'1'"/>
+            <ExpSyntax val="'2'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="3">

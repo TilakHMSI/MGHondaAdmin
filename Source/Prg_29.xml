@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="UpdatePasswordBatch" ISN_2="1" LastIsn="5" id="29">
-          <LastModified _date="739579" _time="72930" date="24/11/2025" time="20:15:30"/>
+          <LastModified _date="739742" _time="63473" date="06/05/2026" time="17:37:53"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -151,7 +151,7 @@
         </TaskForms>
         <Task MainProgram="N">
           <Header Description="UpdatePass" ISN_2="5" LastIsn="5" id="29">
-            <LastModified _date="739579" _time="72930" date="24/11/2025" time="20:15:30"/>
+            <LastModified _date="739742" _time="63473" date="06/05/2026" time="17:37:53"/>
             <ExecutionRight comp="-1"/>
             <Resident val="N"/>
             <SQL val="N"/>
@@ -204,7 +204,7 @@
             <InitialMode val="M"/>
             <Locate Direction="A"/>
             <Range Direction="A"/>
-            <VarRange LastIsn="3"/>
+            <VarRange LastIsn="4"/>
             <TaskProperties>
               <SelectionTable val="N"/>
               <ConfirmUpdate CNFU="N"/>
@@ -272,6 +272,7 @@
                     <Type val="R"/>
                     <ExposedToRoute val="N"/>
                     <IsParameter val="N"/>
+                    <Range MAX="12" MIN="12"/>
                     <DIFF_UPDATE val="T"/>
                     <Condition val="Y"/>
                     <Modifier val="S"/>
@@ -484,8 +485,13 @@
               <ExpSyntax val="NULL()"/>
               <ExpAttribute val="*"/>
             </Expression>
+            <Expression id="12">
+              <ExpSyntax val="'2'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
           </Expressions>
           <VarRangeInfo Mode="E" VarRangeVeeIsn="15" id="3"/>
+          <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="4"/>
         </Task>
       </Task>
     </Programs>

@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="UserGroups_Import" ISN_2="1" LastIsn="1" id="34">
-          <LastModified _date="739566" _time="66147" date="11/11/2025" time="18:22:27"/>
+          <LastModified _date="739742" _time="55686" date="06/05/2026" time="15:28:06"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -488,7 +488,7 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="'1'"/>
+            <ExpSyntax val="'2'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">

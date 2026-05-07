@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="Y">
         <Header Description="Main Program" ISN_2="1" LastIsn="1" id="1">
-          <LastModified _date="739709" _time="68222" date="03/04/2026" time="18:57:02"/>
+          <LastModified _date="739742" _time="60261" date="06/05/2026" time="16:44:21"/>
           <Resident val="N"/>
           <SQL val="N"/>
           <ReturnValue>
@@ -30,7 +30,7 @@
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="546"/>
+        <ItemIsn val="547"/>
         <Resource>
           <Columns>
             <Column id="1" name="GSL">
@@ -101,6 +101,15 @@
                 <Picture id="157" valUnicode="U2"/>
                 <StoredAs id="173" val="1"/>
                 <Size id="174" val="2"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="9" name="GProjectName">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="20"/>
+                <StoredAs id="173" val="1"/>
+                <Size id="174" val="20"/>
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
@@ -190,7 +199,6 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="2" FlowIsn="2" id="2">
-                  <ASS val="2"/>
                   <Column val="2"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
@@ -269,6 +277,18 @@
               <LogicLine>
                 <Select FieldID="546" FlowIsn="9" id="546">
                   <Column val="8"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="547" FlowIsn="10" id="547">
+                  <Column val="9"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>

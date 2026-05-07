@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="RightsImport" ISN_2="1" LastIsn="1" id="30">
-          <LastModified _date="739566" _time="61481" date="11/11/2025" time="17:04:41"/>
+          <LastModified _date="739742" _time="55569" date="06/05/2026" time="15:26:09"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -505,7 +505,7 @@
         </TaskForms>
         <Expressions>
           <Expression id="1">
-            <ExpSyntax val="'1'"/>
+            <ExpSyntax val="'2'"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="2">
