@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="LoginScreen" ISN_2="1" LastIsn="8" id="5">
-          <LastModified _date="739742" _time="62017" date="06/05/2026" time="17:13:37"/>
+          <LastModified _date="739751" _time="46890" date="15/05/2026" time="13:01:30"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -601,6 +601,25 @@
                   <WithValue val="18"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
+                  <Disabled val="1"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="283">
+                  <Type val="2"/>
+                  <Text val="Password Policy Group master added"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="282">
+                  <Parent val="32768"/>
+                  <FieldID val="6"/>
+                  <WithValue val="31"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -1049,6 +1068,10 @@
           </Expression>
           <Expression id="30">
             <ExpSyntax val="'0'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="31">
+            <ExpSyntax val="'[  {        &quot;name&quot;: &quot;User Master&quot;,    &quot;url&quot;: &quot;/Home/UsersList&quot;,&quot;icon&quot;: &quot;vendorico&quot;    },&#xD;&#xA;{        &quot;name&quot;: &quot;Rights Master&quot;,    &quot;url&quot;: &quot;/Home/RightsMaster&quot;,&quot;icon&quot;: &quot;doctrackico&quot;    },&#xD;&#xA;{        &quot;name&quot;: &quot;Group Master&quot;,    &quot;url&quot;: &quot;/Home/GroupMaster&quot;,&quot;icon&quot;: &quot;docico&quot;    },&#xD;&#xA;{        &quot;name&quot;: &quot;Assign Rights To Groups&quot;,    &quot;url&quot;: &quot;/Home/AssignRightsToaGroup&quot;,&quot;icon&quot;: &quot;csico&quot;    },&#xD;&#xA;{        &quot;name&quot;: &quot;Policy Group Master&quot;,    &quot;url&quot;: &quot;/Home/PolicyGroupMaster&quot;,&quot;icon&quot;: &quot;docico&quot;    },&#xD;&#xA;{        &quot;name&quot;: &quot;Assign User To Policy Groups&quot;,    &quot;url&quot;: &quot;/Home/AssignUserToPolicyGroup&quot;,&quot;icon&quot;: &quot;csico&quot;    },&#xD;&#xA;{        &quot;name&quot;: &quot;User Rights/Groups&quot;,    &quot;url&quot;: &quot;/Home/UserRightsGroups&quot;,&quot;icon&quot;: &quot;vbsico&quot;    },&#xD;&#xA;{        &quot;name&quot;: &quot;Change password&quot;,    &quot;url&quot;: &quot;/Home/ChangeUserPassword&quot;,&quot;icon&quot;: &quot;changepassico&quot;    } ]'"/>
             <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
