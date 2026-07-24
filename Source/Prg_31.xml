@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="UserRight_Import" ISN_2="1" LastIsn="1" id="31">
-          <LastModified _date="739742" _time="57632" date="06/05/2026" time="16:00:32"/>
+          <LastModified _date="739768" _time="50801" date="01/06/2026" time="14:06:41"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -209,7 +209,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
-                  <Locate MAX="9" MIN="9"/>
+                  <Locate MAX="1" MIN="1"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="N"/>
                   <Modifier val="S"/>
