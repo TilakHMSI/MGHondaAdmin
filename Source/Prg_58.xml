@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Rich Client - RightsMaster" ISN_2="1" LastIsn="1" id="58">
-          <LastModified _date="739581" _time="42149" date="26/11/2025" time="11:42:29"/>
+          <LastModified _date="739822" _time="40646" date="25/07/2026" time="11:17:26"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Interactive val="Y"/>
           <External val="N"/>
           <Offline val="N"/>
-          <FormType val="N"/>
+          <FormType val="M"/>
           <DotNetObjectExists val="N"/>
         </Header>
         <ItemIsn val="16"/>
@@ -58,7 +58,7 @@
           <InitialMode val="E"/>
           <Locate Direction="A"/>
           <Range Direction="A"/>
-          <VarRange/>
+          <VarRange LastIsn="1"/>
           <TaskProperties>
             <SelectionTable val="N"/>
             <ConfirmUpdate CNFU="N"/>
@@ -127,6 +127,7 @@
                   <Type val="R"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
+                  <Range MAX="1" MIN="1"/>
                   <_DitIndexForToolkit val="2"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
@@ -335,7 +336,6 @@
         <TaskForms>
           <FormEntry _last_isn="33" _last_test_id="33" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
-              <Model id="1"/>
               <Width id="23" val="3654"/>
               <Height id="24" val="195"/>
               <_Comment id="218"/>
@@ -773,6 +773,13 @@
             </Control>
           </FormEntry>
         </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="'2'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
+        <VarRangeInfo Mode="E" VarRangeVeeIsn="1" id="1"/>
       </Task>
     </Programs>
   </ProgramsRepository>
